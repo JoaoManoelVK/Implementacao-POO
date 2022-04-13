@@ -14,6 +14,8 @@ public class FuncionarioComissionado extends Funcionario{
         return this.comissao;
     }
 
+    //Lembra da coesao? Talvez esse método esteja fazendo além do que ele se propõe. Minha sugestão é fazer setComissao e setQuantidade de Vendas.
+    
     //SetComissao é modificado para receber quantidade de vendas alem do valor das comissões
     public void setComissao(double comissao,int quantidade) {
         
