@@ -8,14 +8,15 @@ public class FuncionarioMain {
         Funcionario funcionario = new Funcionario("Carlos", "Almeida", 1000);
         FuncionarioComissionado funcionarioComissionado = new FuncionarioComissionado("Elias", "Alcantra", 500);
 
-        //Comissão do Funcionario Comissionado, preço e quantidade
-        funcionarioComissionado.setComissao(1200, 3);
-        funcionarioComissionado.setComissao(400, 1);
+        //Comissão do Funcionario Comissionado, preço e vendas
+        funcionarioComissionado.setComissao(1200);
+        funcionarioComissionado.setComissao(400);
+        funcionarioComissionado.setVendas(3);
+        funcionarioComissionado.setVendas(1);
 
-        //Comissão não podendo ser negativa ou zero tanto em comissão quanto quantidade
-        funcionarioComissionado.setComissao(1000, 0);
-        funcionarioComissionado.setComissao(0, 1);
-        funcionarioComissionado.setComissao(0, 0);
+        //Comissão e Vendas não podendo ser negativa ou zero 
+        funcionarioComissionado.setComissao(0);
+        funcionarioComissionado.setVendas(0);
 
         //Get Vendas faz um controle de quantas vendas o Funcionario fez
         System.out.println(funcionarioComissionado.getVendas());
