@@ -3,7 +3,7 @@ package POO;
 public class FuncionarioMain {
     
     public static void main(String[] args) {
-        
+            
         //Objeto Funcionario e Funcionario Comissionado
         Funcionario funcionario = new Funcionario("Carlos", "Almeida", 1000);
         FuncionarioComissionado funcionarioComissionado = new FuncionarioComissionado("Elias", "Alcantra", 500);
