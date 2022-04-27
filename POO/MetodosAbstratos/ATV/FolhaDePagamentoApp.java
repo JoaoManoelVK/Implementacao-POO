@@ -7,9 +7,12 @@ public class FolhaDePagamentoApp {
         Funcionario funcionario = new Funcionario("João Manoel",231231);
         FuncionarioAssalariado funcionarioa = new FuncionarioAssalariado("Claudio", 4123, 1000);
         FuncionarioComissionado fComissionado = new FuncionarioComissionado("Pedro",12312,20,100);
+        FuncionarioHora fHora = new FuncionarioHora('Paulo', 5123, 5000, 10, 500);
 
-        
-        
+        funcionario.toString();
+        funcionarioa.toString();
+        fComissionado.toString();
+        fHora.toString()
         
         
         
