@@ -1,5 +1,7 @@
 package POO;
 
+import POO.Herança.Funcionario;
+
 public class FuncionarioComissionado extends Funcionario{
     private double comissao;
     private int vendas;

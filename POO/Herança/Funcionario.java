@@ -1,4 +1,4 @@
-package POO;
+package POO.Herança;
 
 public class Funcionario {
     private String primeiro_nome;
